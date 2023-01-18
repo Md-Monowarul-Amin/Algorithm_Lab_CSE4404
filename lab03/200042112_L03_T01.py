@@ -54,6 +54,7 @@ while sum(indegrees) != numCources:
         if visited[i] == 0:
             dfs(adj_list, out_list, visited, indegrees[i])
 
+
 print(out_list)
 
 """
